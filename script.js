@@ -40,7 +40,7 @@ function draw() {
   }
 }
 
-function mouseIsClicked() {
+function mouseClicked() {
   if (word==false) {
     word=true;
   } else if (word==true) {
