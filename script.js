@@ -1,4 +1,4 @@
-let word=false;//boolean used for text visibility manipulation
+var word=false;//boolean used for text visibility manipulation
 var twinkle=30;//sets changing element of star
 var flap=1;//constant used to pulsate the star
 
