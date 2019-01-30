@@ -1,0 +1,64 @@
+/*Sets the Dimensions of the website, manages Generic Font,
+*/
+
+/*Overall Document Settings*/
+body {
+	margin: auto;
+	height: 768px;
+	max-width: 1366px;
+	display: grid;
+	background-image: url("ImageMadLibs-02.png");
+	grid-template-columns: repeat(5, 20%);
+	grid-template-rows: repeat(8, 12.5%);
+}
+
+a {
+	text-decoration: none; /*removes underline from hypertext*/
+}
+
+/*Header related Classes and Parameters*/
+header {
+	font: Impact, Charcoal, sans-serif;
+	font-size: 25px;
+	grid-column: 1/2;
+	grid-row: 6/8;
+}
+
+/*Section Related Classes and Parameters*/
+section {
+	grid-column: 3/6;
+	grid-row: 4;
+	font-size: 25px;
+	border-style: solid;
+	border-bottom: 5px;
+	border-left: 5px;
+	border-right: 5px;
+	border-color: black;
+}
+
+input[type="text"] {
+  width: 10%;
+  /*max-width: 5in;*/
+  min-width: 50px;
+  /*padding: 4%;*/
+  border: none; /*remove default*/
+  border-bottom: 8px pink solid;
+  margin-bottom:.7em;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: white;
+  color: antiquewhite;
+}
+
+/*Footer Related Parameters*/
+footer {
+	text-align: center;
+	background-color: pink;
+	grid-column: 1/6;
+	grid-row: 8;
+	height: 250px;
+}
+
+footer a {
+	color: beige;
+}
