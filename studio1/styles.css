@@ -4,10 +4,11 @@
 /*Overall Document Settings*/
 body {
 	margin: auto;
-	height: 768px;
+	max-height: 768px;
 	max-width: 1366px;
 	display: grid;
 	background-image: url("ImageMadLibs-02.png");
+	object-fit: cover;
 	grid-template-columns: repeat(5, 20%);
 	grid-template-rows: repeat(8, 12.5%);
 }
@@ -18,16 +19,16 @@ a {
 
 /*Header related Classes and Parameters*/
 header {
-	font: Impact, Charcoal, sans-serif;
+	font-family: "Impact", Charcoal, sans-serif;
 	font-size: 25px;
 	grid-column: 1/2;
 	grid-row: 6/8;
 }
 
 /*Section Related Classes and Parameters*/
-section {
-	grid-column: 3/6;
-	grid-row: 4;
+.madLib {
+	grid-column: 3/5;
+	grid-row: 3;
 	font-size: 25px;
 	border-style: solid;
 	border-bottom: 5px;
@@ -37,7 +38,8 @@ section {
 }
 
 input[type="text"] {
-  width: 10%;
+  width: 20%;
+	text-align: center;
   /*max-width: 5in;*/
   min-width: 50px;
   /*padding: 4%;*/
@@ -45,7 +47,7 @@ input[type="text"] {
   border-bottom: 8px pink solid;
   margin-bottom:.7em;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
   background-color: white;
   color: antiquewhite;
 }
@@ -55,7 +57,7 @@ footer {
 	text-align: center;
 	background-color: pink;
 	grid-column: 1/6;
-	grid-row: 8;
+	grid-row: 8/9;
 	height: 250px;
 }
 
