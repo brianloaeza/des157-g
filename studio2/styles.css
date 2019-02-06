@@ -21,24 +21,17 @@ header {
 	grid-row: 1;
 }
 /*Section Related Classes and Parameters*/
-section {
-	border-style: solid;
-	border-bottom: 5px;
-	border-left: 5px;
-	border-right: 5px;
-	border-color: black;
-}
 .noteBook {
-	grid-column: 1/4;
+	grid-column: 2/4;
 	grid-row: 1/5;
 	align-items: center;
 }
 .marker {
-	grid-column: 1/5;
+	grid-column: 2/5;
 	grid-row: 6;
 }
 .pen {
-	grid-column: 1/5;
+	grid-column: 2/5;
 	grid-row: 7;
 }
 /*Footer Related Parameters*/
@@ -54,78 +47,3 @@ footer a {
 }
 
 /*adds different view mode for larger devices*/
-
-@media (min-width: 769px) {
-
-	/*Sets the Dimensions of the website, manages Generic Font,
-	*/
-
-
-	/*Overall Document Settings*/
-
-	body {
-		margin: auto;
-		height: 768px;
-		max-width: 1366px;
-		display: grid;
-		background-color: beige;
-		grid-template-columns: repeat(16, 6.25%);
-		grid-template-rows: repeat(8, 12.5%);
-	}
-
-	a {
-		text-decoration: none;
-		/*removes underline from hypertext*/
-	}
-
-
-	/*Header related Classes and Parameters*/
-
-	header {
-		font: Impact, Charcoal, sans-serif;
-		font-size: 25px;
-		grid-column: 4/16;
-		grid-row: 3;
-	}
-
-
-	/*Section Related Classes and Parameters*/
-
-	section {
-		border-style: solid;
-		border-bottom: 5px;
-		border-left: 5px;
-		border-right: 5px;
-		border-color: black;
-	}
-
-	.noteBook {
-		grid-column: 1/9;
-		grid-row: 1/7;
-	}
-
-	.marker {
-		grid-column: 9/13;
-		grid-row: 1/7;
-	}
-
-	.pen {
-		list-style: square;
-		grid-column: 13/17;
-		grid-row: 1/7;
-	}
-
-
-	/*Footer Related Parameters*/
-
-	footer {
-		text-align: center;
-		display: inline-grid;
-		background-color: aqua;
-		grid-column: 1/17;
-		grid-row: 8;
-	}
-
-	footer a {
-		color: beige;
-	}
