@@ -15,7 +15,7 @@ a {
 }
 /*Header related Classes and Parameters*/
 header {
-	font: Impact, Charcoal, sans-serif;
+	font: 'Impact', Charcoal, sans-serif;
 	font-size: 25px;
 	grid-column: 1;
 	grid-row: 1;
