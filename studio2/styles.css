@@ -10,7 +10,7 @@ body {
 	grid-template-rows: repeat(8, 1fr);
 }
 
-/* ensures images scale down or up with device window */
+/* ensures images scale down or up with device window hello*/
 img{
 	max-width:100%;
 	height: auto;
