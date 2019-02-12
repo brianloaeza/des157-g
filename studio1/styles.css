@@ -42,7 +42,7 @@ fieldset{
 	border: none;
 }
 
-.form {
+.buttons {
 	grid-column: 9/10;
 	grid-row: 2;
 	font-size: 25px;
@@ -88,8 +88,7 @@ footer {
 	text-align: center;
 	background-color: pink;
 	grid-column: 1/11;
-	grid-row: 8/9;
-	height: 250px;
+	grid-row: 9;
 }
 
 footer a {
