@@ -9,7 +9,7 @@ var img1 = bodymovin.loadAnimation({
 })
 
   var img3 = bodymovin.loadAnimation({
-    container: document.querySelector('.img4'),
+    container: document.querySelector('.img3'),
     renderer: 'svg',
     loop: true,
     autoplay: true,
