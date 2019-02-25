@@ -1,3 +1,4 @@
+'use strict'
 
 var img1 = bodymovin.loadAnimation({
   container: document.querySelector('.img1'),
