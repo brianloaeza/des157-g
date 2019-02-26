@@ -12,14 +12,16 @@ function processForm(evt) {
   var noun = document.querySelector('#noun').value;
   var verb = document.querySelector('#verb').value;
 
-  // myMsg.innerHTML =
-  //   'Hi, ' +
-  //   userName +
-  //   '!<p>You love the color <em>' +
-  //   favColor +
-  //   '</em>!  Have a great day!</p>';
-  //
-  // msgSection.className = 'show';
+  var myMsg = document.querySelector('.output');
+
+  myMsg.innerHTML =
+    'Hi, ' +
+    adj +
+    '!<p>You love the color <em>' +
+    noun +
+    '</em>!  Have a great day!</p>' + verb;
+
+  msgSection.className = 'show';
 
   evt.preventDefault();
 }

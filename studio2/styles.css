@@ -89,7 +89,7 @@ footer a {
 
 /*adds different view mode for larger devices*/
 
-@media only screen (min-width:769px){
+@media screen (min-width:769px){
 
 	.noteBook {
 		grid-row: 1/9;
