@@ -1,0 +1,62 @@
+/*Sets the Dimensions of the website, manages Generic Font,
+*/
+
+/*Overall Document Settings*/
+body {
+	margin: auto;
+	height: 768px;
+	max-width: 1366px;
+	display: grid;
+	background-color: beige;
+	grid-template-columns: repeat(16, 6.25%);
+	grid-template-rows: repeat(8, 12.5%);
+}
+
+a {
+	text-decoration: none; /*removes underline from hypertext*/
+}
+
+/*Header related Classes and Parameters*/
+header {
+	font: Impact, Charcoal, sans-serif;
+	font-size: 25px;
+	grid-column: 2/14;
+	grid-row: 1;
+}
+
+/*Section Related Classes and Parameters*/
+section {
+	border-style: solid;
+	border-bottom: 5px;
+	border-left: 5px;
+	border-right: 5px;
+	border-color: black;
+}
+
+.game{
+	grid-row: 2/7;
+	grid-column:2/16;
+	background-color: white;
+}
+
+.buttonSection{
+	grid-row: 7;
+	grid-column:2/16;
+	background-color: grey;
+}
+
+img{
+	width:100%;
+}
+
+/*Footer Related Parameters*/
+footer {
+	text-align: center;
+	background-color: aqua;
+	grid-column: 1/17;
+	grid-row: 8;
+}
+
+footer a {
+	color: beige;
+}
