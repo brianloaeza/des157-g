@@ -52,6 +52,12 @@ section {
 	padding-top: 2%;
 	display:none;
 }
+.siNo{
+	grid-row: 7;
+	grid-column:6/16;
+	padding-top: 2%;
+	display:none;
+}
 .language{
 	grid-row: 7;
 	grid-column:2/16;
@@ -129,11 +135,11 @@ img{
 /*Footer Related Parameters*/
 footer {
 	text-align: center;
-	background-color: aqua;
+	background-color: beige;
 	grid-column: 1/17;
 	grid-row: 8;
 }
 
 footer a {
-	color: beige;
+	color: black;
 }
