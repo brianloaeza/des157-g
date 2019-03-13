@@ -1,0 +1,139 @@
+/*Sets the Dimensions of the website, manages Generic Font,
+*/
+
+/*Overall Document Settings*/
+body {
+	margin: auto;
+	height: 768px;
+	max-width: 1366px;
+	display: grid;
+	background-color: beige;
+	grid-template-columns: repeat(16, 6.25%);
+	grid-template-rows: repeat(8, 12.5%);
+}
+
+a {
+	text-decoration: none; /*removes underline from hypertext*/
+}
+
+/*Header related Classes and Parameters*/
+header {
+	font: Impact, Charcoal, sans-serif;
+	font-size: 25px;
+	grid-column: 2/14;
+	grid-row: 1;
+}
+
+/*Section Related Classes and Parameters*/
+section {
+	border-style: solid;
+	border-bottom: 5px;
+	border-left: 5px;
+	border-right: 5px;
+	border-color: black;
+}
+
+.game{
+	grid-row: 2/7;
+	grid-column:2/16;
+	background-color: #F3E9D2;
+}
+
+.buttonSection{
+	grid-row: 7;
+	grid-column:2/16;
+	background-color: #114B5F;
+}
+
+
+.yesNo{
+	grid-row: 7;
+	grid-column:6/16;
+	padding-top: 2%;
+	display:none;
+}
+.language{
+	grid-row: 7;
+	grid-column:2/16;
+	padding-top: 2%;
+	display:block;
+	padding-left: 12%
+}
+.age{
+	grid-row: 2;
+	grid-column:5/16;
+	padding-top: 2%;
+	display:none;
+}
+.gender{
+	grid-row: 3;
+	grid-column:5/16;
+	padding-top: 2%;
+	display:none;
+}
+.status{
+	grid-row: 4;
+	grid-column:5/16;
+	padding-top: 2%;
+	display:none;
+}
+.leave{
+	grid-row: 2;
+	grid-column:2/16;
+	padding-top: 2%;
+	padding-left:1%;
+}
+.submission{
+	grid-row: 7;
+	grid-column:2/16;
+	padding-top: 2%;
+	display:none;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="spanish"],
+input[type="english"],
+input[type="other"],
+input[type="yes"],
+input[type="no"]{
+  width: auto;
+  padding: 10px;
+  border-radius: 20px;
+	border-color: #B2A68E;
+  margin-right: 2%;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  background: beige;
+  color: #333;
+}
+
+input[type="leave"]{
+  /* width: auto;
+  padding: 10px;
+  border: 0px;
+  border-radius: 4px; */
+  /* margin-right: 2%; */
+  /* font-size: 1.3em;
+  font-weight: bold; */
+  text-align: center;
+  background: #114B5F;
+  color: white;
+}
+
+img{
+	width:100%;
+}
+
+/*Footer Related Parameters*/
+footer {
+	text-align: center;
+	background-color: aqua;
+	grid-column: 1/17;
+	grid-row: 8;
+}
+
+footer a {
+	color: beige;
+}
