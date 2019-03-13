@@ -34,7 +34,7 @@ english.addEventListener("click", function(){
   })
 
 
-});
+})
 
 spanish.addEventListener("click", function(){
   language.style.display='none';
@@ -46,7 +46,7 @@ spanish.addEventListener("click", function(){
     status.style.display='block';
     submission.style.display='block';
   })
-});
+})
 
 leave.addEventListener("click", function(){
   // yesNo.style.display='none';
@@ -55,4 +55,4 @@ leave.addEventListener("click", function(){
   // status.style.display='none';
   submission.style.display='none';
   language.style.display='block';
-});
+})
