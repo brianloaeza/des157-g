@@ -58,6 +58,18 @@ section {
 	padding-top: 2%;
 	display:none;
 }
+.sure{
+	grid-row: 7;
+	grid-column:6/16;
+	padding-top: 2%;
+	display:none;
+}
+.how{
+	grid-row: 7;
+	grid-column:6/16;
+	padding-top: 2%;
+	display:none;
+}
 .language{
 	grid-row: 7;
 	grid-column:2/16;
@@ -65,22 +77,28 @@ section {
 	display:block;
 	padding-left: 12%
 }
-.age{
-	grid-row: 2;
-	grid-column:5/16;
+.paper{
+	grid-row: 3/6;
+	grid-column:5/13;
 	padding-top: 2%;
+	padding-left: 2%;
+	background-color: white;
 	display:none;
 }
-.gender{
-	grid-row: 3;
-	grid-column:5/16;
+.citizen{
+	grid-row: 3/6;
+	grid-column:5/13;
 	padding-top: 2%;
+	padding-left: 2%;
+	background-color: white;
 	display:none;
 }
-.status{
-	grid-row: 4;
-	grid-column:5/16;
+.green{
+	grid-row: 3/6;
+	grid-column:5/13;
 	padding-top: 2%;
+	padding-left: 2%;
+	background-color: white;
 	display:none;
 }
 .leave{
@@ -102,7 +120,9 @@ input[type="spanish"],
 input[type="english"],
 input[type="other"],
 input[type="yes"],
-input[type="no"]{
+input[type="no"],
+input[type="Sure"],
+input[type="enter"]{
   width: auto;
   padding: 10px;
   border-radius: 20px;
