@@ -29,22 +29,26 @@ anim.addEventListener('DOMLoaded', function() {
     anim.playSegments([0, 80], true);
 })
 
+// For English Portions
 english.addEventListener("click", function() {
     language.style.display = 'none';
     yesNo.style.display = 'block';
     anim.playSegments([120, 180], true);
 
+    // Leads to Consultation
     yes.addEventListener("click", function() {
         anim.playSegments([181, 270], true);
         yesNo.style.display = 'none';
         sure.style.display = 'block';
 
+        // Leads to Paper Form
         sure.addEventListener("click", function() {
             // anim.playSegments([181,270],true);
             sure.style.display = 'none';
             paper.style.display = 'block';
             submission.style.display = 'block';
 
+            //Leads to Question Section
             enter.addEventListener("click", function() {
                 anim.playSegments([390, 510], true);
                 paper.style.display = 'none';
@@ -54,23 +58,12 @@ english.addEventListener("click", function() {
     })
 })
 
+// For Spanish Portions
 spanish.addEventListener("click", function() {
-    language.style.display = 'none';
-    siNo.style.display = 'block';
-    yes.addEventListener("click", function() {
-        yesNo.style.display = 'none';
-        gender.style.display = 'block';
-        age.style.display = 'block';
-        status.style.display = 'block';
-        submission.style.display = 'block';
-    })
+    alert("Este Caristica llegara pronto!");
 })
 
-// leave.addEventListener("click", function(){
-//   // yesNo.style.display='none';
-//   // gender.style.display='none';
-//   // age.style.display='none';
-//   // status.style.display='none';
-//   submission.style.display='none';
-//   language.style.display='block';
-// })
+//for Other Languages
+other.addEventListener("click", function() {
+    alert("Coming Soon!");
+})

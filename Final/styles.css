@@ -113,15 +113,7 @@ section {
 	display:none;
 }
 
-input[type="submit"],
-input[type="reset"],
-input[type="spanish"],
-input[type="english"],
-input[type="other"],
-input[type="yes"],
-input[type="no"],
-input[type="Sure"],
-input[type="enter"]{
+input[type="button"]{
   width: auto;
   padding: 10px;
   border-radius: 20px;
@@ -134,7 +126,7 @@ input[type="enter"]{
   color: #333;
 }
 
-input[type="leave"]{
+input[type="submit"]{
   /* width: auto;
   padding: 10px;
   border: 0px;
