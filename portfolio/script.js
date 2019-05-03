@@ -32,6 +32,14 @@ var immiOverlay = document.querySelector('.immiOverlay');
 // Variables related to Other tab
 var otherTab = document.querySelector('#other');
 var other = document.querySelector('.other');
+var color = document.querySelector('#colorPrint');
+var colorOverlay = document.querySelector('.colorOverlay');
+var light = document.querySelector('#light');
+var lightOverlay = document.querySelector('.lightOverlay');
+var book = document.querySelector('#book');
+var bookOverlay = document.querySelector('.bookOverlay');
+
+
 
 //Event Listeners
 aboutTab.addEventListener("click", function(){
@@ -121,6 +129,7 @@ witchOverlay.style.display="none";
 close.style.display='none';
 })
 })
+// Event Listeners under Game/Web Tab
 board.addEventListener("click", function(){
 boardOverlay.style.display = 'block';
 close.style.display='block';
@@ -137,5 +146,29 @@ immiOverlay.style.display="none";
 close.style.display='none';
 })
 })
-
+// Event Listeners under Other Tab
+color.addEventListener("click", function(){
+colorOverlay.style.display = 'block';
+close.style.display='block';
+close.addEventListener("click", function(){
+colorOverlay.style.display="none";
+close.style.display='none';
+})
+})
+light.addEventListener("click", function(){
+lightOverlay.style.display = 'block';
+close.style.display='block';
+close.addEventListener("click", function(){
+lightOverlay.style.display="none";
+close.style.display='none';
+})
+})
+book.addEventListener("click", function(){
+bookOverlay.style.display = 'block';
+close.style.display='block';
+close.addEventListener("click", function(){
+bookOverlay.style.display="none";
+close.style.display='none';
+})
+})
 //Event Listeners General overlay
